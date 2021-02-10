@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "projectFolderIgnoreList": ["**/node_modules/**"],
+  "include": [
+    "src/**/*.ts",
+    "ormconfig.ts",
+    "src/**/*.js"
+  ]
+}

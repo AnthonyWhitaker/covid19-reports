@@ -104,6 +104,8 @@
     "test": "./test.sh",
     "seed-dev": "./seed-dev.sh",
     "build-run-dev": "./build-run-dev.sh",
+    "lint": "eslint --ext .js,.ts .; cd server && eslint --ext .js,.ts .; cd ..",
+    "lint-fix": "eslint --ext .js,.ts . --fix; cd server && eslint --ext .js,.ts . --fix; cd ..",
     "typeorm": "ts-node --project ./server/tsconfig.json ./node_modules/.bin/typeorm",
     "migration-create": "./migration-create.sh",
     "migration-generate": "./migration-generate.sh",

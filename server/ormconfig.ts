@@ -3,7 +3,7 @@ import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConne
 import { AccessRequest } from './api/access-request/access-request.model';
 import { Org } from './api/org/org.model';
 import { Role } from './api/role/role.model';
-import { RosterHistory } from "./api/roster/roster-history.model";
+import { RosterHistory } from './api/roster/roster-history.model';
 import { Roster } from './api/roster/roster.model';
 import { User } from './api/user/user.model';
 import { Unit } from './api/unit/unit.model';
